@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carta Inolvidable</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    background: radial-gradient(circle at top, #1a0026, #000);
+    font-family:'Montserrat', sans-serif;
+    overflow-x:hidden;
+    color:#fff;
+}
+
+/* VIDEO */
+.video-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding-top:40px;
+}
+
+iframe{
+    width:90%;
+    max-width:900px;
+    height:500px;
+    border-radius:20px;
+    box-shadow:0 0 40px rgba(255,0,150,0.5);
+}
+
+/* CONTENEDOR CARTA */
+.carta-wrapper{
+    display:flex;
+    justify-content:center;
+    padding:80px 20px;
+}
+
+.carta{
+    width:90%;
+    max-width:900px;
+    padding:80px;
+    border-radius:30px;
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,0.15);
+    box-shadow:
+        0 0 60px rgba(255,0,200,0.2),
+        inset 0 0 40px rgba(255,255,255,0.05);
+    position:relative;
+}
+
+/* DETALLE BORDE LUMINOSO */
+.carta:before{
+    content:"";
+    position:absolute;
+    inset:-2px;
+    border-radius:30px;
+    padding:2px;
+    background:linear-gradient(45deg,#ff00cc,#8000ff,#ffd700,#ff00cc);
+    -webkit-mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    -webkit-mask-composite:xor;
+            mask-composite:exclude;
+    animation:brillo 6s linear infinite;
+}
+
+@keyframes brillo{
+    0%{filter:hue-rotate(0deg);}
+    100%{filter:hue-rotate(360deg);}
+}
+
+/* TITULO NEON */
+.neon-especial{
+    text-align:center;
+    font-size:60px;
+    font-weight:700;
+    letter-spacing:3px;
+    color:#fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #ff00cc,
+        0 0 20px #ff00cc,
+        0 0 40px #ff00cc;
+    margin-bottom:50px;
+}
+
+/* FRASES */
+.frase-rosada{
+    text-align:center;
+    font-family:'Playfair Display', serif;
+    font-size:28px;
+    color:#ff4da6;
+    text-shadow:0 0 15px rgba(255,77,166,0.8);
+    margin:30px 0;
+}
+
+.frase-morada{
+    text-align:center;
+    font-family:'Playfair Display', serif;
+    font-size:30px;
+    color:#c77dff;
+    text-shadow:0 0 20px rgba(199,125,255,0.9);
+    margin:30px 0;
+}
+
+.frase-dorada{
+    text-align:center;
+    font-family:'Playfair Display', serif;
+    font-size:26px;
+    color:#ffd700;
+    text-shadow:
+        0 0 10px #ffd700,
+        0 0 20px #ffcc00,
+        0 0 40px rgba(255,215,0,0.8);
+    margin:40px 0;
+}
+
+/* CONTENIDO EDITABLE */
+.contenido{
+    font-size:20px;
+    line-height:1.9;
+    text-align:justify;
+    margin-top:50px;
+}
+
+/* CORAZONES FLOTANDO */
+.corazon{
+    position:fixed;
+    bottom:-20px;
+    font-size:20px;
+    animation:flotar 10s linear infinite;
+    opacity:0.7;
+}
+
+@keyframes flotar{
+    0%{transform:translateY(0) scale(1);}
+    100%{transform:translateY(-110vh) scale(1.5);}
+}
+
+</style>
+</head>
+<body>
+
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/n8VUzkFIgso?autoplay=1&loop=1&playlist=n8VUzkFIgso"
+frameborder="0"
+allow="autoplay; encrypted-media"
+allowfullscreen>
+</iframe>
+</div>
+
+<div class="carta-wrapper">
+<div class="carta">
+
+<div class="neon-especial">MI AMOR, MI VIDA HERMOSA, MI ALMA GEMELA</div>
+
+<div class="contenido">
+<p>Esta noche no es una noche cualquiera. El mundo sigue girando, las luces de la ciudad se encienden poco a poco, el cielo se cubre de estrellas… pero para mí, todo se detiene en un solo punto: tú. <strong>Es curioso cómo un simple instante puede transformarse en un recuerdo eterno, como esos momentos que compartimos juntos, que se graban en mi mente y en mi corazón.</strong>
+
+Si supieras cómo late mi corazón mientras escribo esto… Late con tu nombre. Late con tus recuerdos. Late con cada momento que hemos vivido y con todos los que aún nos faltan por vivir. <strong>Desde nuestras primeras conversaciones hasta las largas caminatas bajo la luna, cada instante ha sido un regalo que atesoro profundamente.</strong>
+
+Desde que llegaste a mi vida, algo cambió para siempre. No fue algo pequeño, no fue algo pasajero… fue una transformación completa. <strong>Recuerdo la primera vez que te vi; había algo en tu sonrisa que iluminó mi mundo. Era como si el sol hubiera decidido salir en medio de la tormenta, trayendo consigo una calidez que nunca había sentido antes.</strong> Llegaste como llega el amanecer después de la noche más oscura: silenciosa, suave, pero poderosa. Y desde entonces, mi vida tiene un brillo que antes no conocía.
+
+Me enamoré de tu sonrisa antes de darme cuenta. <strong>Era esa sonrisa que tiene el poder de desarmar mis preocupaciones y llenar de alegría hasta el día más gris. Cada vez que sonríes, siento que el mundo se vuelve un lugar mejor, un lugar donde todo es posible.</strong> Me enamoré de tu forma de mirarme, de cómo tus ojos parecen guardar universos enteros. <strong>En tus ojos, veo sueños, aventuras y un futuro lleno de posibilidades. Me pierdo en ellos, y en esos momentos, el tiempo parece detenerse.</strong> Me enamoré de tu voz, que tiene el extraño poder de calmar cualquier tormenta dentro de mí. <strong>Es como una melodía que resuena en mi alma, trayendo paz y consuelo incluso en los días más difíciles.</strong> Me enamoré de tu risa, que es música pura. Pero sobre todo… me enamoré de tu corazón.
+
+Hay algo en ti que no puedo explicar con palabras normales. <strong>Es una mezcla de dulzura y fuerza, de ternura y pasión. Eres delicada como una flor cuando sonríes, pero también eres fuerte como el fuego cuando amas. Y yo… yo amo cada una de tus versiones.</strong>
+
+Amo cuando eres tierna. <strong>Esos momentos en los que te acurrucas a mi lado, buscando calor y compañía, son los más hermosos. En esos instantes, el mundo se reduce a nosotros dos, y todo lo demás se desvanece.</strong> Amo cuando eres intensa. <strong>Cuando hablas de tus sueños y tus metas, cuando te apasionas por lo que amas, me contagias esa energía y me inspiras a ser mejor. Tu intensidad es un fuego que me impulsa a seguir adelante.</strong> Amo cuando te emocionas. <strong>Verte brillar cuando hablas de tus pasiones es un espectáculo que nunca quiero perderme. Tu entusiasmo es contagioso, y me hace querer ser parte de todo lo que te hace feliz.</strong> Amo cuando sueñas. <strong>Escuchar tus sueños y aspiraciones es como ver un mapa del futuro, un futuro que quiero construir a tu lado. Cada sueño que compartes se convierte en un ladrillo en la casa que estamos construyendo juntos.</strong> Amo cuando hablas de tu futuro. <strong>Esas conversaciones sobre lo que queremos lograr, los lugares que queremos visitar, y la vida que deseamos crear juntos son las que me llenan de esperanza y emoción.</strong> Amo cuando te quedas en silencio y solo me miras. <strong>En esos momentos, siento que no necesitamos palabras; nuestra conexión es tan profunda que todo se entiende sin necesidad de hablar.</strong>
+
+Porque incluso en el silencio, contigo nunca hay vacío. <strong>Tu presencia llena cada rincón de mi ser, y no hay nada que desee más que estar a tu lado, compartiendo cada pequeño instante de la vida.</strong>
+
+Quiero que sepas que no eres solo mi novia. Eres mi compañera, mi inspiración, mi motivación constante para ser mejor cada día. <strong>Contigo he aprendido a enfrentar mis miedos y a luchar por mis sueños. Eres la razón por la que me esfuerzo, por la que me levanto cada mañana con la determinación de ser un mejor hombre.</strong> Cuando pienso en mis metas, cuando pienso en crecer, en construir algo grande, en luchar por mis sueños… siempre te imagino a mi lado. <strong>No como espectadora, sino como protagonista de mi historia. Juntos somos un equipo imparable, y cada paso que damos es un paso hacia un futuro brillante.</strong>
+
+Contigo aprendí que el amor no es solo decir “te amo”. <strong>Es demostrarlo. Es cuidar. Es respetar. Es elegir a la misma persona todos los días, incluso en los momentos difíciles. Es quedarse cuando sería más fácil irse. Es abrazar cuando el mundo pesa. Es confiar incluso cuando hay miedo.</strong> Y yo te elijo. Hoy. Mañana. Y cada día que venga. <strong>Cada día es una nueva oportunidad para amarte más, para descubrir nuevas facetas de ti y para fortalecer el lazo que nos une.</strong>
+
+Si pudiera describir lo que siento por ti, diría que es como un incendio que no quema, sino que ilumina. <strong>Es una luz que guía mis pasos, que me da calor en las noches frías y que me llena de esperanza en los días oscuros.</strong> Es pasión que no destruye, sino que construye. <strong>Es un fuego que aviva mi espíritu, que me motiva a ser la mejor versión de mí mismo. Quiero que siempre sientas esa pasión en nuestro amor, que nunca se apague.</strong> Es deseo mezclado con respeto. <strong>Es un deseo profundo de compartir mi vida contigo, de construir un hogar lleno de amor y risas, de apoyarnos mutuamente en cada paso del camino.</strong> Es intensidad combinada con ternura. <strong>Es la fuerza de un abrazo que te envuelve y la suavidad de un beso que deja huella en el alma.</strong>
+
+Cuando te abrazo, siento que el mundo desaparece. <strong>Es como si solo existiéramos tú y yo, y todo lo demás se desvaneciera. En esos momentos, me siento completo.</strong> Cuando te beso, siento que el tiempo se detiene. <strong>Es un instante mágico donde todo lo que importa es nuestra conexión, donde el universo parece alinearse para nosotros.</strong> Cuando te miro, siento que estoy exactamente donde debo estar. <strong>Tu mirada es mi hogar, y no hay lugar en el mundo donde preferiría estar que a tu lado.</strong>
+
+Eres mi lugar seguro… pero también eres mi aventura favorita. <strong>Contigo he descubierto que el amor no es solo un refugio, sino también un viaje emocionante lleno de sorpresas y descubrimientos.</strong> Quiero caminar contigo bajo la lluvia sin importar mojarnos. <strong>Quiero que cada gota de agua sea un recuerdo, una risa compartida, un momento que atesoraremos para siempre.</strong> Quiero reír contigo hasta que nos duela el estómago. <strong>Las risas son el lenguaje del amor, y cada risa compartida es un ladrillo más en la construcción de nuestra historia.</strong> Quiero hablar contigo hasta la madrugada. <strong>Las noches de conversaciones interminables son las que más disfruto, donde compartimos nuestros pensamientos, nuestros sueños y nuestras esperanzas.</strong> Quiero construir recuerdos que algún día contemos con una sonrisa enorme. <strong>Cada recuerdo es un tesoro que guardamos en nuestros corazones, y quiero que cada día esté lleno de momentos que recordemos con alegría.</strong> Quiero sostener tu mano cuando tengas miedo. <strong>Quiero ser tu apoyo, tu roca en los momentos de incertidumbre, y recordarte que nunca estás sola.</strong> Quiero ser tu apoyo cuando dudes. <strong>Quiero ser la voz que te recuerda lo increíble que eres, que te anima a seguir adelante y a luchar por tus sueños.</strong> Quiero ser el hombre que te dé paz, pero también emoción. <strong>Quiero ser ese equilibrio en tu vida, alguien que te brinde serenidad y también la emoción de nuevas aventuras.</strong>
+
+Y esta noche, 24 de febrero de 2026, quiero prometerte algo desde lo más profundo de mi corazón: <strong>Prometo amarte con hechos, no solo con palabras. Cada acción será un reflejo de mi amor por ti, y cada día me esforzaré por demostrarte cuánto significas para mí.</strong> Prometo cuidarte como el tesoro que eres. <strong>Eres invaluable para mí, y haré todo lo posible por protegerte y hacerte sentir amada y valorada.</strong> Prometo respetar tus sueños y apoyarte en cada meta. <strong>Tu felicidad y tus aspiraciones son tan importantes como las mías, y quiero ser tu mayor animador en cada paso que des.</strong> Prometo crecer contigo. <strong>Quiero evolucionar juntos, aprender el uno del otro y construir un futuro lleno de amor y comprensión.</strong> Prometo nunca dejar que la rutina apague la chispa que nos une. <strong>La chispa de nuestro amor es lo que lo hace especial, y siempre buscaré maneras de mantenerla viva y vibrante.</strong> Prometo mirarte siempre como si fuera la primera vez… con asombro, con deseo, con amor infinito. <strong>Quiero que cada día sea una nueva oportunidad para enamorarme de ti una y otra vez.</strong>
+
+No sé qué nos depara el futuro. Nadie lo sabe. <strong>Pero sí sé algo con absoluta certeza: mientras estemos juntos, cualquier camino valdrá la pena. Tu amor es mi norte, y sé que juntos podemos enfrentar cualquier desafío que se presente.</strong>
+
+Gracias por existir. <strong>Gracias por ser la luz en mi vida, por cada día que compartimos, por cada sonrisa que me regalas.</strong> Gracias por elegirme. <strong>Elegirme a mí, a nuestra historia, a nuestro amor. Es un honor que atesoro profundamente.</strong> Gracias por cada abrazo. <strong>Esos abrazos son el refugio donde encuentro paz y amor, y siempre los llevaré en mi corazón.</strong> Gracias por cada mensaje. <strong>Cada palabra tuya es un recordatorio de lo afortunado que soy por tenerte en mi vida.</strong> Gracias por cada “te amo”. <strong>Esas palabras son la música que llena mi alma y me hace sentir completo.</strong> Gracias por tu paciencia. <strong>Tu paciencia y comprensión son cualidades que admiro profundamente, y me inspiran a ser mejor.</strong> Gracias por tu luz. <strong>Tu luz ilumina mi camino y me guía en los momentos oscuros.</strong>
+
+Si algún día dudas de cuánto te amo, vuelve a leer esto. <strong>Porque cada palabra está escrita con el alma abierta y el corazón en tus manos. Quiero que sepas que mi amor por ti es inquebrantable y eterno.</strong>
+
+Eres mi presente favorito. <strong>Cada día contigo es un regalo que valoro enormemente, y no hay nada que desee más que seguir compartiendo mi vida contigo.</strong> Eres mi pensamiento constante. <strong>No hay un solo momento en el que no te lleve en mi mente y en mi corazón.</strong> Eres mi amor más grande. <strong>Tu amor es el regalo más hermoso que he recibido, y lo atesoro con todo mi ser.</strong>
+
+Y si el universo me diera la oportunidad de elegir de nuevo… volvería a buscarte, volvería a enamorarme, volvería a quedarme. <strong>Porque tú no eres una casualidad en mi vida. Eres mi destino. Cada paso que he dado me ha llevado a ti, y no puedo imaginar mi vida sin ti.</strong></p>
+  <p>Con todo mi amor, mi pasión y mi entrega absoluta,
+
+Siempre tuyo. 💖</p>
+  <p><strong class="frase-dorada">JUAN KALETH MENDOZA PRIMERA 💜 </strong></p>
+  </div> 
+
+<div class="frase-rosada">
+"En el inmenso lienzo del tiempo, donde cada segundo se pinta con los colores de nuestras risas y susurros, me doy cuenta de que cada momento a tu lado es un capítulo de una historia que trasciende lo cotidiano, donde tus ojos son las ventanas a un mundo lleno de maravillas y tus sonrisas, las melodías que danzan en el aire, creando una sinfonía que solo nuestros corazones pueden escuchar. Eres el faro que guía mi barco en mares inciertos, la musa que inspira mis pensamientos más profundos y el abrazo cálido que transforma mis días grises en paisajes de ensueño. En cada latido, en cada suspiro, encuentro la certeza de que nuestro amor es un viaje eterno, una aventura que desafía las fronteras del tiempo y el espacio, un regalo que atesoro con cada fibra de mi ser, y que siempre será la razón por la que creo en la magia de lo imposible."
+</div>
+
+<div class="frase-morada">
+"Te amo con una profundidad que va más allá de lo que las palabras pueden expresar, un amor que se extiende a través de los vastos confines del universo y se entrelaza con el tejido mismo del tiempo y el espacio. Cada estrella en el cielo es un testigo de este sentimiento que arde con la pasión de mil soles, iluminando los rincones más oscuros de mi ser. Te amo no solo en este instante, sino en todos los momentos que han sido y los que aún están por venir, en cada susurro del viento y en cada latido de mi corazón. Este amor es un viaje sin fin, donde cada paso que damos juntos nos acerca más a un destino que solo nosotros podemos imaginar, un lugar donde la eternidad se encuentra con la infinitud de nuestras almas, creando un lazo imposible de romper que desafía toda lógica y razón. Te amo más allá del infinito, en un universo donde solo tú y yo existimos, y donde nuestro amor es la fuerza primordial que mueve las galaxias."
+  <P><strong>EN POCAS PALABRAS PRECIOSA 💜 TE AMO MUCHÍSIMO MAS DE LO PENSE VALERIA PETRO VILLAZÓN 💜 </strong></P>
+</div>
+
+<div class="frase-dorada">
+"Te prometo amarte con una devoción que trasciende el tiempo y el espacio, incluso en las vidas que aún no hemos vivido, donde nuestras almas, aunque separadas por la distancia de las dimensiones, encontrarán el camino de regreso la una a la otra. Mi amor por ti es un compromiso eterno, una promesa que se extiende más allá de esta existencia, un lazo indestructible que nos unirá en cada reencarnación. En cada nuevo amanecer, en cada nueva oportunidad de ser, te buscaré con la certeza de que nuestro amor es un faro que guía nuestras almas a través de las eras. No importa cuántas vidas vivamos, ni qué formas adoptemos, mi corazón te encontrará y te amará con la misma intensidad y pasión que siento hoy, porque nuestro amor es un hilo dorado que conecta todas nuestras existencias, un lazo que nunca se romperá y que siempre nos recordará que estamos destinados a estar juntos, sin importar el tiempo o el lugar."
+</div>
+
+
+</div>
+</div>
+
+<!-- Corazones -->
+<div class="corazon" style="left:10%">💗</div>
+<div class="corazon" style="left:30%;animation-duration:12s;">💖</div>
+<div class="corazon" style="left:50%;animation-duration:9s;">💜</div>
+<div class="corazon" style="left:70%;animation-duration:14s;">💘</div>
+<div class="corazon" style="left:85%;animation-duration:11s;">💝</div>
+
+</body>
+  </html>
